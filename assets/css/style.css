@@ -260,3 +260,117 @@ a:visited {
 	top: 920px;
 	left: 95px;
 }
+
+@media screen and (max-width: 980px){
+
+	.leftheader {text-align: left;}
+
+	.portfoliopic {float: none;}
+
+	.left p { clear: both; 
+			  text-indent: 0;}
+
+	.left {width: 450px;
+		text-align: center;}
+
+	.nav {left: 600px;}
+
+	.right {margin-right: 100px;}
+
+	#hangman {left: 162px; top: 380px;}
+
+	#trivia {left: 162px; top: 640px;}
+
+	#rps { left: 162px; top: 1440px;}
+
+	#rutgers {left: 162px;
+				top: 1175px;}
+
+	#rpg { left: 162px;
+			top: 905px; }
+
+}
+
+@media screen and (max-width: 768px) {
+
+	.left p { clear: none;}
+
+	.portfoliopic { float: left;
+					padding-right: 20px;
+					 }
+
+	.left {	width: 600px;
+			text-align: left; }
+		
+
+	.right {width: 630px;
+			float: left;
+			margin-bottom: 20px;
+			margin-left: 60px;
+			text-align: left;}
+
+	.connect { padding-left: 15px;}
+
+	.icons { padding-left: 15px; }
+
+	.nav {left: 450px;}
+
+	.pictures img {padding: 5px 5px 5px 5px;}
+
+	#hangman { left:80px; top: 370px; }
+
+	#trivia { left: 80px; top: 600px; }
+
+	#rps { left: 80px; top: 840px; }
+
+	#rpg {left: 369px; top: 370px;}
+
+	#rutgers {left: 369px; top: 600px;}
+
+
+}
+
+@media screen and (max-width: 640px) {
+	.header {position: static; 
+			height: 150px;	}
+
+	.name {float:top;
+			width: 100%;
+			margin-left: 0;
+			text-align: center;}
+
+		.nav { height: 70px;
+				top: 120px;
+				left: 15px; }
+
+		.nav li { padding: 0 65px; }
+
+
+		.left { width: 500px;
+			    text-align: center;}
+
+		.portfoliopic {float: top;
+			margin: 5px 10px 5px 55px;}
+
+		.left p { clear: both; 
+			margin: auto 10px 55px;}
+
+		.right { width: 530px; }
+
+		.pictures img { width: 460px;
+						height: 420px;
+						padding-bottom: 15px;}
+
+		.portlinks a { width: 460px; }
+
+
+		#hangman {	left: 95px;	top: 620px;}
+
+		#rpg { 	left: 95px; top: 1060px; }
+
+		#trivia { left: 95px; top: 1500px; }
+	
+		#rutgers {  left: 95px; top: 1945px;}
+
+		#rps {left: 95px; top: 2390px;}
+}
